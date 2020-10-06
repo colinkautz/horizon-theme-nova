@@ -1,0 +1,8 @@
+{
+    "identifier": "colin.HorizonTheme",
+    "name": "Horizon Theme",
+    "organization": "Colin K",
+    "description": "A port of Jonathan Olaleye's Horizon Theme for VS Code",
+    "version": "1.0",
+    "categories": ["themes"]
+}
