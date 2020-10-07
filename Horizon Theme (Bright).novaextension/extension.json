@@ -1,0 +1,8 @@
+{
+    "identifier": "colin.HorizonThemeBright",
+    "name": "Horizon Theme (Bright)",
+    "organization": "Colin K",
+    "description": "A port of Jonathan Olaleye's Horizon Theme (Bright) for VS Code",
+    "version": "1.0",
+    "categories": ["themes"]
+}
