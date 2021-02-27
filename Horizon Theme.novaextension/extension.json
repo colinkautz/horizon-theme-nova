@@ -4,6 +4,8 @@
     "organization": "Colin K",
     "description": "A port of Jonathan Olaleye's Horizon Theme for VS Code",
     "version": "1.0",
+    "bugs": "https://github.com/colinkautz/horizon-theme-nova/issues",
+    "repository": "https://github.com/colinkautz/horizon-theme-nova",
     "keywords": ["horizon","theme"],
     "categories": ["themes"]
 }
