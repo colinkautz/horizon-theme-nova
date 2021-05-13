@@ -1,33 +1,15 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
+# Horizon Theme for Nova
+Based on the work of [Jonathan Olaleye's Horizon Theme](https://github.com/jolaleye/horizon-theme-vscode), which is released under an MIT license.
 
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
+## Instructions
+As this is a theme for [Nova](https://nova.app), you'll need it installed on your Mac.
+Once you do, you should be able to go to the **Extensions > Extensions Library** and click on the **Themes** tab.
 
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Horizon Theme (Bright)" in the sidebar.
+If that does not work, clone/download the project. the **HorizonTheme.novaextension** should be recognized by Nova and let you install it that way.
 
-Let's get started!
--->
+## Licenses/Acknowledgements
+For this extension: [MIT License](LICENSE.md)
 
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
+For the original VS Code theme: [MIT License](https://github.com/jolaleye/horizon-theme-vscode/blob/master/LICENSE)
 
-**Horizon Theme (Bright)** provides a fun, bright palette:
-
-![](https://nova.app/images/en/dark/editor.png)
-
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
-
-Horizon Theme (Bright) also offers a lighter alternative:
-
-![](https://nova.app/images/en/light/editor.png)
-
-## Acknowledgements
-
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
-
-Horizon Theme (Bright) is based on _Original Horizon Theme (Bright)_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+Nova is a trademark of Panic Inc.
