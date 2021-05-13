@@ -2,7 +2,10 @@
     "identifier": "colin.HorizonThemeBright",
     "name": "Horizon Theme (Bright)",
     "organization": "Colin K",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "A port of Jonathan Olaleye's Horizon Theme (Bright) for VS Code.",
     "version": "1.0",
+    "bugs": "https://github.com/colinkautz/horizon-theme-nova/issues",
+    "repository": "https://github.com/colinkautz/horizon-theme-nova",
+    "keywords": ["horizon","theme","bright"],
     "categories": ["themes"]
 }
