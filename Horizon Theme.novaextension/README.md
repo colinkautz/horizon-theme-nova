@@ -1,15 +1,33 @@
-# Horizon Theme for Nova
-Based on the work of [Jonathan Olaleye's Horizon Theme](https://github.com/jolaleye/horizon-theme-vscode), which is released under an MIT license.
+<!--
+👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
 
-## Instructions
-As this is a theme for [Nova](https://nova.app), you'll need it installed on your Mac.
-Once you do, you should be able to go to the **Extensions > Extensions Library** and click on the **Themes** tab.
+Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
 
-If that does not work, clone/download the project. the **HorizonTheme.novaextension** should be recognized by Nova and let you install it that way.
+💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Horizon Theme" in the sidebar.
 
-## Licenses/Acknowledgements
-For this extension: [MIT License](LICENSE.md)
+Let's get started!
+-->
 
-For the original VS Code theme: [MIT License](https://github.com/jolaleye/horizon-theme-vscode/blob/master/LICENSE)
+<!--
+🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
+-->
 
-Nova is a trademark of Panic Inc.
+**Horizon Theme** provides a fun, bright palette:
+
+![](https://nova.app/images/en/dark/editor.png)
+
+<!--
+🎈 If your extension provides multiple variations, don't forget to show those too!
+-->
+
+Horizon Theme also offers a lighter alternative:
+
+![](https://nova.app/images/en/light/editor.png)
+
+## Acknowledgements
+
+<!--
+🎈 If your theme is based on existing work by someone else, consider crediting the original author
+-->
+
+Horizon Theme is based on _Original Horizon Theme_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
