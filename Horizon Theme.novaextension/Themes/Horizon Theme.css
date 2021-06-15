@@ -11,11 +11,10 @@ meta.window {
     background-color: #1C1E26;
     border-color: #2E303E;
 }
+
 meta.titlebar {
-    color: #FFF;
+    color: #BBB;
     border-color: #2E303E;
-}
-meta.titlebar.inactive {
 }
 
 meta.button {
@@ -23,10 +22,12 @@ meta.button {
     border: #2E303E;
     color: #FFF;
 }
+
 meta.button.highlighted {
     background: #6C6F93;
     color: #FFF;
 }
+
 meta.button.selected,
 meta.button.highlighted.selected {
     color: #FFF;
@@ -36,14 +37,13 @@ meta.textfield {
     background-color: #1C1E26;
     border-color: #2E303E;
 }
+
 meta.textfield.highlighted {
     background-color: #232530;
     border-color: #2E303E;
 }
 
-/*
- * Document styles
- */
+/* Document styles */
 meta.document {
     background-color: #1c1e26;
     border-color: #2E303E;
@@ -53,9 +53,11 @@ meta.document.button {
     background-color: #232530;
     border-color: #2E303E;
 }
+
 meta.document.button.disabled {
     background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
 }
+
 meta.document.button.highlighted {
     background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%));
 }
@@ -64,6 +66,7 @@ meta.document.textfield {
     background-color: hsl(210, 5%, 10%);
     border-color: hsl(210, 5%, 19%);
 }
+
 meta.document.textfield.highlighted {
     background-color: hsl(210, 5%, 10%);
     border-color: hsl(210, 5%, 19%);
@@ -144,18 +147,22 @@ identifier.type,
 identifier.constant {
     color: rgba(250, 194, 154, 0.9);
 }
+
 identifier.global, identifier.variable {
     color: rgba(233, 86, 120, 0.9);
 }
+
 identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
     color: rgba(37, 176, 188, 0.9);
 }
+
 identifier.key {
     color: hsl(268, 100%, 83%);
 }
+
 identifier.argument {
     font-style: italic;
     color: rgba(233, 86, 120, 0.9);
@@ -165,19 +172,24 @@ identifier.argument {
 string {
     color: rgba(250, 183, 149, 0.9);
 }
+
 string.key {
     color: rgba(233, 86, 120, 0.9);
 }
+
 string-template {
     color: rgba(184, 119, 219, 0.9);
 }
+
 string-template.value {
     color: hsl(27, 100%, 64%);
 }
+
 regex,
 regex.escaped {
     color: hsl(40, 100%, 64%);
 }
+
 cdata {
     color: #BBB;
 }
@@ -204,32 +216,41 @@ definition.method method.name {
 tag {
     color: rgba(233, 86, 120, 0.9);
 }
+
 tag.framework {
     color: hsl(258, 57%, 70%);
 }
+
 tag.attribute.equals-sign {
     color: #BBB;
 }
+
 tag.attribute.name {
     color: rgba(240, 148, 131, 0.9);
 }
+
 tag.attribute.value {
     color: rgba(250, 183, 149, 0.9);
 }
+
 tag.attribute.value.link {
-    color: hsl(210, 100%, 70%);
+    text-decoration: underline;
+    color: rgba(250, 183, 149, 0.9);
 }
 
 /* Styles */
 style.at {
     color: rgba(184, 119, 219, 0.9);
 }
+
 style.selector.element {
     color: rgba(233, 86, 120, 0.9);
 }
+
 style.selector.identifier.id {
     color: rgba(37, 176, 188, 0.9);
 }
+
 style.selector.identifier.class {
     color: rgba(240, 148, 131, 0.9);
 }
@@ -242,9 +263,11 @@ style.selector.pseudoclass {
 style.string.single-quoted {
     color: rgba(250, 183, 149, 0.9);
 }
+
 style.attribute.name {
     color: #BBB;
 }
+
 style.value.number,
 style.value.color.hex {
     color: rgba(240, 148, 131, 0.9);
@@ -254,6 +277,7 @@ style.value.keyword,
 style.value.color.named {
     color: rgba(250, 194, 154, 0.9);
 }
+
 style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
