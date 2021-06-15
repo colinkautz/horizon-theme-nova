@@ -381,7 +381,18 @@ python.separator {
 }
 
 /* Ruby overrides */
+ruby.identifier.args {
+    font-style: italic;
+    color: rgba(233, 86, 120, 0.9);
+}
 
+ruby.identifier.module {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+ruby.identifier.type {
+    color: rgba(233, 86, 120, 0.9);
+}
 
 /* C# extension theming*/
 source.cs.keyword.modifier,
