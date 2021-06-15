@@ -5,59 +5,53 @@ meta {
     -theme-accent-color: auto;
 }
 
+/* Window Styles */
 
-/*
- * Window styles
- */
 meta.window {
-    border-color: hsla(0, 0%, 100%, 0.1);
+    background-color: #1C1E26;
+    border-color: #2E303E;
 }
 meta.titlebar {
-    color: hsl(210, 17%, 76%);
-    border-color: hsla(0, 0%, 0%, 0.6);
+    color: #FFF;
+    border-color: #2E303E;
 }
 meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%));
-    border: linear-gradient(hsl(210, 5%, 17%), hsl(210, 5%, 13%));
-    color: white;
+    background: #232530;
+    border: #2E303E;
+    color: #FFF;
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(210, 5%, 42%), hsl(210, 5%, 34%));
-    color: white;
+    background: #6C6F93;
+    color: #FFF;
 }
-meta.button.selected {
-    color: white;
-}
+meta.button.selected,
 meta.button.highlighted.selected {
-    color: white;
-}
-meta.button.disabled {
-    
+    color: #FFF;
 }
 
 meta.textfield {
-    background-color: hsl(210, 5%, 13%);
-    border-color: hsl(210, 5%, 23%);
+    background-color: #1C1E26;
+    border-color: #2E303E;
 }
 meta.textfield.highlighted {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 23%);
+    background-color: #232530;
+    border-color: #2E303E;
 }
 
 /*
  * Document styles
  */
 meta.document {
-    background-color: hsl(210, 5%, 11%);
-    border-color: hsla(0, 0%, 100%, 0.1);
+    background-color: #1c1e26;
+    border-color: #2E303E;
 }
 
 meta.document.button {
-    background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%));
-    border: linear-gradient(hsl(210, 5%, 11%), hsl(210, 5%, 8%));
+    background-color: #232530;
+    border-color: #2E303E;
 }
 meta.document.button.disabled {
     background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
@@ -77,17 +71,17 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-    color: hsl(210, 49%, 90%);
+    color: #D5D8DA;
 }
 meta.text.invisible {
-    color: hsla(210, 100%, 90%, 0.12);
+    color: rgba(204, 230, 255, 0.12);
 }
 meta.text.selected {
 }
 
 /* Cursor */
 meta.cursor {
-    background-color: hsl(210, 5%, 15%);
+    background-color: rgba(108, 111, 147, 0.3);
 }
 
 /* Indentation Guides */
@@ -97,35 +91,36 @@ meta.indentguide {
 
 /* Gutter */
 meta.gutter {
-    color: hsl(210, 5%, 38%);
+    color: rgba(213, 216, 218, 0.1);
 }
 meta.gutter.selected {
-    background-color: hsl(210, 5%, 10%);
-    color: hsl(210, 17%, 76%);
+    background-color: rgba(108, 111, 147, 0.5);
+    color: rgba(213, 216, 218, 0.5);
 }
 
 
-/*
+/* 
  * Syntax styles
- */
+ */ 
 
 keyword {
-    color: hsl(210, 100%, 70%);
+    color: rgba(184, 119, 219, 0.9);
 }
 comment {
-    color: hsl(210, 11%, 45%);
+    font-style: italic;
+    color: rgba(187, 187, 187, 0.3);
 }
 processing {
     color: hsl(210, 11%, 45%);
 }
 declaration {
-    color: hsl(210, 11%, 45%);
+    color: rgba(233, 86, 120, 0.6);
 }
 bracket {
-    color: hsl(210, 23%, 68%);
+    color: #BBB;
 }
 operator {
-    color: hsl(210, 23%, 68%);
+    color: #BBB;
 }
 invalid {
     background-color: hsl(355, 91%, 57%);
@@ -136,53 +131,49 @@ link {
 }
 
 /* Values */
-value.boolean {
-    color: hsl(210, 100%, 70%);
-}
+value.boolean,
+value.number,
 value.null {
-    color: hsl(210, 100%, 70%);
-}
-value.number {
-    color: hsl(210, 100%, 70%);
+    color: rgba(240, 148, 131, 0.9);
 }
 value.entity {
     color: hsl(210, 100%, 70%);
 }
 value.symbol {
-    color: hsl(210, 100%, 70%);
+    color: rgba(240, 148, 131, 0.9);
 }
 
 /* Identifiers */
-identifier.type {
-    color: hsl(258, 57%, 70%);
-}
+identifier.type,
 identifier.constant {
+    color: rgba(250, 194, 154, 0.9);
 }
 identifier.global, identifier.variable {
-    color: hsl(268, 100%, 83%);
+    color: rgba(233, 86, 120, 0.9);
 }
 identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
-    color: hsl(166, 41%, 62%);
+    color: rgba(37, 176, 188, 0.9);
 }
 identifier.key {
     color: hsl(268, 100%, 83%);
 }
 identifier.argument {
-    color: hsl(268, 100%, 83%);
+    font-style: italic;
+    color: rgba(233, 86, 120, 0.9);
 }
 
 /* Strings */
 string {
-    color: hsl(5, 100%, 68%);
+    color: rgba(250, 183, 149, 0.9);
 }
 string.key {
-    color: hsl(210, 100%, 70%);
+    color: rgba(233, 86, 120, 0.9);
 }
 string-template {
-    color: hsl(27, 100%, 70%);
+    color: rgba(184, 119, 219, 0.9);
 }
 string-template.value {
     color: hsl(27, 100%, 64%);
@@ -194,34 +185,6 @@ regex.escaped {
     color: hsl(27, 97%, 63%);
 }
 cdata {
-    color: hsl(210, 100%, 70%);
-}
-
-/* Markup */
-markup.heading {
-    color: hsl(30, 50%, 60%);
-}
-markup.line {
-    color: hsl(60, 43%, 56%);
-}
-markup.bold {
-    color: hsl(196, 49%, 53%);
-    font-weight: bold;
-}
-markup.italic {
-    color: hsl(94, 44%, 64%);
-    font-style: italic;
-}
-markup.strikethrough {
-    color: hsl(0, 100%, 70%);
-}
-markup.list.item {
-    color: hsl(30, 50%, 60%);
-}
-markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
-}
-markup.link {
     color: hsl(210, 100%, 70%);
 }
 
@@ -245,16 +208,19 @@ definition.method method.name {
 
 /* Tags */
 tag {
-    color: hsl(166, 41%, 62%);
+    color: rgba(233, 86, 120, 0.9);
 }
 tag.framework {
     color: hsl(258, 57%, 70%);
 }
+tag.attribute.equals-sign {
+    color: #BBB;
+}
 tag.attribute.name {
-    color: hsl(95, 55%, 60%);
+    color: rgba(240, 148, 131, 0.9);
 }
 tag.attribute.value {
-    color: hsl(5, 100%, 69%);
+    color: rgba(250, 183, 149, 0.9);
 }
 tag.attribute.value.link {
     color: hsl(210, 100%, 70%);
@@ -266,35 +232,174 @@ style.at {
     font-weight: bold;
 }
 style.selector.element {
-    font-weight: bold;
+    color: rgba(233, 86, 120, 0.9);
 }
 style.selector.identifier.id {
-    color: hsl(166, 41%, 62%);
+    color: rgba(37, 176, 188, 0.9);
 }
 style.selector.identifier.class {
-    color: hsl(258, 57%, 70%);
+    color: rgba(240, 148, 131, 0.9);
 }
+
+style.selector.pseudoelement,
 style.selector.pseudoclass {
-    color: hsl(258, 57%, 70%);
+    color: rgba(250, 183, 149, 0.9);
 }
-style.selector.pseudoelement {
-    color: hsl(166, 41%, 62%);
+
+style.string.single-quoted {
+    color: rgba(250, 183, 149, 0.9);
 }
 style.attribute.name {
-    color: hsl(148, 29%, 58%);
+    color: #D5D8DA;
 }
-style.value.number {
-    color: hsl(249, 84%, 74%);
-}
+style.value.number,
 style.value.color.hex {
-    color: hsl(249, 84%, 74%);
+    color: rgba(240, 148, 131, 0.9);
 }
+
 style.value.keyword {
-    color: hsl(210, 100%, 70%);
+    color: rgba(250, 194, 154, 0.9);
+}
+style.value.keyword.important {
+    color: rgba(184, 119, 219, 0.9);
 }
 style.value.color.named {
-    color: hsl(210, 100%, 70%);
+    color: #FAB795;
 }
-style.value.identifier.function {
-    color: hsl(40, 100%, 64%);
+
+/* Markdown overrides */
+markdown.markup.heading {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+markdown.markup.block.quote {
+    color: rgba(250, 183, 149, 0.7);
+}
+
+markdown.image.markup.link {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+markdown.image.string,
+markdown.markup.reference {
+    color: rgba(250, 183, 149, 0.9);
+}
+
+markdown.markup.list.item.ordered,
+markdown.markup.list.item.unordered,
+markdown.link.identifier.name.key,
+markdown.markup.inline.code,
+markdown.markup.block.code.langauge,
+markdown.markup.bracket {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+markdown.markup.bold {
+    font-weight: bold;
+    color: rgba(184, 119, 219, 0.9);
+}
+
+markdown.markup.italic.underscore {
+    font-style: italic;
+    color: rgba(37, 176, 188, 0.9);
+}
+
+
+/* JS overrides */
+javascript.keyword,
+javascript.key-expression {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+javascript.string.regex {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+javascript.key.string {
+    color: rgba(250, 183, 149, 0.9);
+}
+
+javascript.definition.variable,
+javascript.arguments,
+javascript.identifier {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+javascript.identifier.method,
+javascript.string-literal.inline-expression,
+javascript.string.regex.escape,
+javascript.identifier.function {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+javascript.identifier.type.class.name {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+javascript.colon {
+    color: #BBB;
+}
+
+/* JSON overrides */
+json.comma {
+    color: #BBB;
+}
+
+/* PHP overrides */
+php.definition.identifier.method.name {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+php.definition.class,
+php.class.extends {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+php.identifier.name,
+php.string.double-quoted.string-template.variable {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+php.identifier.type.class.name,
+php.type.identifier.name {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+/* Python overrides */
+python.keyword.self {
+    font-style: italic;
+    color: rgba(250, 194, 154, 0.9);
+}
+
+python.arguments {
+    font-style: italic;
+    color: rgba(233, 86, 120, 0.9);
+}
+
+python.separator {
+    color: #BBB;
+}
+
+/* Ruby overrides */
+
+
+/* C# extension theming*/
+source.cs.keyword.modifier,
+source.cs.keyword.other,
+source.cs.variable.other {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+source.cs.identifier.type,
+source.cs.keyword.type {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+source.cs.keyword.operator {
+    color: #bbb;
+}
+
+source.cs.entity.name.variable,
+source.cs.entity.name.identifier.argument {
+    color: rgba(233, 86, 120, 0.9);
 }
