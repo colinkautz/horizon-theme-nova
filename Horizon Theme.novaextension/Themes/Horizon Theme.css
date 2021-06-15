@@ -106,40 +106,36 @@ meta.gutter.selected {
 keyword {
     color: rgba(184, 119, 219, 0.9);
 }
+
 comment {
     font-style: italic;
     color: rgba(187, 187, 187, 0.3);
 }
+
 processing {
     color: hsl(210, 11%, 45%);
 }
+
 declaration {
     color: rgba(233, 86, 120, 0.6);
 }
-bracket {
-    color: #BBB;
-}
+
+bracket,
 operator {
     color: #BBB;
 }
+
 invalid {
     background-color: hsl(355, 91%, 57%);
     color: hsl(60, 33%, 96%);
-}
-link {
-    color: hsl(210, 100%, 70%);
 }
 
 /* Values */
 value.boolean,
 value.number,
-value.null {
-    color: rgba(240, 148, 131, 0.9);
-}
+value.null,
+value.symbol,
 value.entity {
-    color: hsl(210, 100%, 70%);
-}
-value.symbol {
     color: rgba(240, 148, 131, 0.9);
 }
 
@@ -178,14 +174,12 @@ string-template {
 string-template.value {
     color: hsl(27, 100%, 64%);
 }
-regex {
+regex,
+regex.escaped {
     color: hsl(40, 100%, 64%);
 }
-regex.escaped {
-    color: hsl(27, 97%, 63%);
-}
 cdata {
-    color: hsl(210, 100%, 70%);
+    color: #BBB;
 }
 
 /* Types */
@@ -228,8 +222,7 @@ tag.attribute.value.link {
 
 /* Styles */
 style.at {
-    color: hsl(25, 100%, 63%);
-    font-weight: bold;
+    color: rgba(184, 119, 219, 0.9);
 }
 style.selector.element {
     color: rgba(233, 86, 120, 0.9);
@@ -250,21 +243,33 @@ style.string.single-quoted {
     color: rgba(250, 183, 149, 0.9);
 }
 style.attribute.name {
-    color: #D5D8DA;
+    color: #BBB;
 }
 style.value.number,
 style.value.color.hex {
     color: rgba(240, 148, 131, 0.9);
 }
 
-style.value.keyword {
+style.value.keyword,
+style.value.color.named {
     color: rgba(250, 194, 154, 0.9);
 }
 style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
-style.value.color.named {
-    color: #FAB795;
+
+/* CSS overrides */
+css.style.selector.global.operator,
+css.style.media-feature.keyword {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+css.style.media-query-list.keyword.media-type {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+css.style.selector.operator {
+    color: #BBB;
 }
 
 /* Markdown overrides */
@@ -304,7 +309,6 @@ markdown.markup.italic.underscore {
     color: rgba(37, 176, 188, 0.9);
 }
 
-
 /* JS overrides */
 javascript.keyword,
 javascript.key-expression {
@@ -321,14 +325,16 @@ javascript.key.string {
 
 javascript.definition.variable,
 javascript.arguments,
-javascript.identifier {
+javascript.identifier,
+javascript.key.name {
     color: rgba(233, 86, 120, 0.9);
 }
 
 javascript.identifier.method,
 javascript.string-literal.inline-expression,
 javascript.string.regex.escape,
-javascript.identifier.function {
+javascript.identifier.function,
+javascript.string.backtick-quoted.escape {
     color: rgba(37, 176, 188, 0.9);
 }
 
@@ -392,6 +398,19 @@ ruby.identifier.module {
 
 ruby.identifier.type {
     color: rgba(233, 86, 120, 0.9);
+}
+
+/* SCSS overrides */
+scss.style.value.keyword.default {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+scss.style.operator {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+scss.style.selector.operator {
+    color: #BBB;
 }
 
 /* C# extension theming*/
