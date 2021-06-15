@@ -11,6 +11,7 @@ Once you do, you should be able to go to the `Extensions > Extension Library...`
 If that does not work, clone/download the project. the `Horizon Theme.novaextension` file should be recognized by Nova and let you install it that way.
 
 ## Acknowledgements
+[License](/LICENSE.md) for this version.
 [License](https://github.com/jolaleye/horizon-theme-vscode/blob/master/LICENSE) from the original VS Code theme.
 
 Nova is a trademark of Panic Inc.
