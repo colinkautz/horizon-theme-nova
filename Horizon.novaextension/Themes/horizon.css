@@ -94,7 +94,7 @@ meta.indentguide {
 
 /* Gutter */
 meta.gutter {
-    color: rgba(213, 216, 218, 0.1);
+    color: rgba(213, 216, 218, 0.2);
 }
 meta.gutter.selected {
     background-color: rgba(108, 111, 147, 0.5);
@@ -102,9 +102,8 @@ meta.gutter.selected {
 }
 
 
-/* 
- * Syntax styles
- */ 
+/* Syntax styles */
+
 
 keyword {
     color: rgba(184, 119, 219, 0.9);
@@ -125,7 +124,7 @@ declaration {
 
 bracket,
 operator {
-    color: #BBB;
+    color: #bbb;
 }
 
 invalid {
@@ -191,7 +190,7 @@ regex.escaped {
 }
 
 cdata {
-    color: #BBB;
+    color: #bbb;
 }
 
 /* Types */
@@ -222,7 +221,7 @@ tag.framework {
 }
 
 tag.attribute.equals-sign {
-    color: #BBB;
+    color: #bbb;
 }
 
 tag.attribute.name {
@@ -265,7 +264,7 @@ style.string.single-quoted {
 }
 
 style.attribute.name {
-    color: #BBB;
+    color: #bbb;
 }
 
 style.value.number,
@@ -293,7 +292,7 @@ css.style.media-query-list.keyword.media-type {
 }
 
 css.style.selector.operator {
-    color: #BBB;
+    color: #bbb;
 }
 
 /* Markdown overrides */
@@ -367,12 +366,12 @@ javascript.identifier.type.class.name {
 }
 
 javascript.colon {
-    color: #BBB;
+    color: #bbb;
 }
 
 /* JSON overrides */
 json.comma {
-    color: #BBB;
+    color: #bbb;
 }
 
 /* PHP overrides */
@@ -407,7 +406,7 @@ python.arguments {
 }
 
 python.separator {
-    color: #BBB;
+    color: #bbb;
 }
 
 /* Ruby overrides */
@@ -434,10 +433,10 @@ scss.style.operator {
 }
 
 scss.style.selector.operator {
-    color: #BBB;
+    color: #bbb;
 }
 
-/* C# extension theming*/
+/* C# extension theming */
 source.cs.keyword.modifier,
 source.cs.keyword.other,
 source.cs.variable.other {
@@ -456,4 +455,61 @@ source.cs.keyword.operator {
 source.cs.entity.name.variable,
 source.cs.entity.name.identifier.argument {
     color: rgba(233, 86, 120, 0.9);
+}
+
+/* Terminal */
+terminal.black {
+    color: #1C1E26;
+}
+
+terminal.blue {
+    color: #26BBD9;
+}
+
+terminal.cyan {
+    color: #59E1E3;
+}
+
+terminal.green {
+    color: #29D398;
+}
+
+terminal.magenta {
+    color: #EE64AC;
+}
+
+terminal.red {
+    color: #E95678;
+}
+
+terminal.yellow {
+    color: #FAB795;
+}
+
+terminal.bright-black {
+    color: #232530;
+}
+
+terminal.bright-blue {
+    color: #3FC4DE;
+}
+
+terminal.bright-cyan {
+    color: #6BE4E6;
+}
+
+terminal.bright-green {
+    color: #3FDAA4;
+}
+
+terminal.bright-magenta {
+    color: #F075B5;
+}
+
+terminal.bright-red {
+    color: #EC6A88;
+}
+
+terminal.bright-yellow {
+    color: #FBC3A7;
 }
