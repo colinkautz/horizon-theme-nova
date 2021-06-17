@@ -1,3 +1,8 @@
+## Version 1.0.1
+JS: fixing collection.array, comma, and semicolon colors
+
+---
+
 ## Version 1.0
 
 Initial release, with optimized syntax support for the following languages:
