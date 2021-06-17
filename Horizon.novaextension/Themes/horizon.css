@@ -349,7 +349,8 @@ javascript.key.string {
 javascript.definition.variable,
 javascript.arguments,
 javascript.identifier,
-javascript.key.name {
+javascript.key.name,
+javascript.collection.array {
     color: rgba(233, 86, 120, 0.9);
 }
 
@@ -365,7 +366,9 @@ javascript.identifier.type.class.name {
     color: rgba(250, 194, 154, 0.9);
 }
 
-javascript.colon {
+javascript.colon,
+javascript.comma,
+javascript.semicolon {
     color: #bbb;
 }
 
