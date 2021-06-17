@@ -486,6 +486,10 @@ terminal.yellow {
     color: #FAB795;
 }
 
+terminal.white {
+    color: #FADAD1;
+}
+
 terminal.bright-black {
     color: #232530;
 }
@@ -512,4 +516,8 @@ terminal.bright-red {
 
 terminal.bright-yellow {
     color: #FBC3A7;
+}
+
+terminal.bright-white {
+    color: #FDF0ED;
 }
