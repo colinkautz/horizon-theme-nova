@@ -1,8 +1,8 @@
 ## Version 1.0
 
-Initial release, with syntax support for the following languages:
+Initial release, with optimized syntax support for the following languages:
 ```
-C#
+C# ¹
 CSS
 HTML
 JavaScript
@@ -13,5 +13,8 @@ Python
 Ruby
 SCSS
 XML
-Vue
+Vue ²
+
+¹: requires C# extension by Gareth Redman
+²: requires Vue extension by Tommaso Negri
 ```
