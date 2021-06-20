@@ -1,3 +1,6 @@
+## Version 1.0.2
+Updating types, members, and tag.framework colors
+
 ## Version 1.0.1
 JS: fixing collection.array, comma, and semicolon colors
 
