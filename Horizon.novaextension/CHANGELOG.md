@@ -1,7 +1,7 @@
 ## Version 1.1
 Adding/verifying support for the following:
 
-CoffeeScript, Diff, Haml, INI, Lua
+CoffeeScript, Diff, Haml, INI, Less, Lua
 
 ---
 
