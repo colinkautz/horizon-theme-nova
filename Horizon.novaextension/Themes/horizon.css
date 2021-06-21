@@ -159,7 +159,7 @@ identifier.method {
 }
 
 identifier.key {
-    color: hsl(268, 100%, 83%);
+    color: rgba(184, 119, 219, 0.9);
 }
 
 identifier.argument {
@@ -306,6 +306,11 @@ haml.element {
 }
 
 haml.element.tag {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+/* INI overrides */
+ini.section {
     color: rgba(233, 86, 120, 0.9);
 }
 
