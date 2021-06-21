@@ -377,6 +377,11 @@ json.comma {
     color: #bbb;
 }
 
+/* Lua overrides */
+lua.identifier.property {
+    color: rgba(233, 86, 120, 0.9);
+}
+
 /* PHP overrides */
 php.definition.identifier.method.name {
     color: rgba(37, 176, 188, 0.9);
