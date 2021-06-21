@@ -89,7 +89,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: hsla(220, 5%, 48%, 0.2);
+    border-color: #6c6f93;
 }
 
 /* Gutter */
