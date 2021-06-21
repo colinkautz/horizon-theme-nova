@@ -300,6 +300,15 @@ css.style.selector.operator {
     color: #bbb;
 }
 
+/* Haml overrides */
+haml.element {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+haml.element.tag {
+    color: rgba(233, 86, 120, 0.9);
+}
+
 /* Markdown overrides */
 markdown.markup.heading {
     color: rgba(233, 86, 120, 0.9);
