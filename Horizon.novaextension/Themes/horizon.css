@@ -89,7 +89,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: hsla(220, 5%, 48%, 0.2);
+    border-color: #6c6f93;
 }
 
 /* Gutter */
@@ -115,7 +115,7 @@ comment {
 }
 
 processing {
-    color: hsl(210, 11%, 45%);
+    color: rgba(108, 110, 146, 0.75);
 }
 
 declaration {
@@ -159,7 +159,7 @@ identifier.method {
 }
 
 identifier.key {
-    color: hsl(268, 100%, 83%);
+    color: rgba(184, 119, 219, 0.9);
 }
 
 identifier.argument {
@@ -281,6 +281,11 @@ style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
 
+/* CoffeeScript overrides */
+coffeescript.operator.function {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 /* CSS overrides */
 css.style.selector.global.operator,
 css.style.media-feature.keyword {
@@ -293,6 +298,35 @@ css.style.media-query-list.keyword.media-type {
 
 css.style.selector.operator {
     color: #bbb;
+}
+
+/* Diff overrides */
+diff.change.add {
+    background-color: rgba(9, 247, 160, 0.1);
+    color: #27D796;
+}
+
+diff.change.delete {
+    background-color: rgba(244, 62, 92, 0.1);
+    color: #E95379;
+}
+
+diff.processing.location {
+    color: rgba(184, 119, 219, 0.9); 
+}
+
+/* Haml overrides */
+haml.element {
+    color: rgba(240, 148, 131, 0.9);
+}
+
+haml.element.tag {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+/* INI overrides */
+ini.section {
+    color: rgba(233, 86, 120, 0.9);
 }
 
 /* Markdown overrides */
@@ -342,7 +376,8 @@ javascript.string.regex {
     color: rgba(240, 148, 131, 0.9);
 }
 
-javascript.key.string {
+javascript.key.string,
+javascript.identifier.core.global {
     color: rgba(250, 183, 149, 0.9);
 }
 
@@ -375,6 +410,11 @@ javascript.semicolon {
 /* JSON overrides */
 json.comma {
     color: #bbb;
+}
+
+/* Lua overrides */
+lua.identifier.property {
+    color: rgba(233, 86, 120, 0.9);
 }
 
 /* PHP overrides */
