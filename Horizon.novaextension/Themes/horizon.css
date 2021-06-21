@@ -281,6 +281,11 @@ style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
 
+/* Coffeescript overrides */
+coffeescript.operator.function {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 /* CSS overrides */
 css.style.selector.global.operator,
 css.style.media-feature.keyword {
@@ -342,7 +347,8 @@ javascript.string.regex {
     color: rgba(240, 148, 131, 0.9);
 }
 
-javascript.key.string {
+javascript.key.string,
+javascript.identifier.core.global {
     color: rgba(250, 183, 149, 0.9);
 }
 
