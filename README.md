@@ -7,4 +7,9 @@
 # Horizon Theme
 Based on the work of [Jonathan Olaleye's Horizon Theme](https://github.com/jolaleye/horizon-theme-vscode), which is released under an MIT license.
 
-Instructions and Acknowledgements are located the extension's [README](Horizon.novaextension/README.md)
+## Acknowledgements
+
+[License](/LICENSE.md) for this version.  
+[License](https://github.com/jolaleye/horizon-theme-vscode/blob/master/LICENSE) from the original VS Code theme.
+
+Nova is a trademark of Panic Inc.
