@@ -281,7 +281,7 @@ style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
 
-/* Coffeescript overrides */
+/* CoffeeScript overrides */
 coffeescript.operator.function {
     color: rgba(184, 119, 219, 0.9);
 }
@@ -298,6 +298,17 @@ css.style.media-query-list.keyword.media-type {
 
 css.style.selector.operator {
     color: #bbb;
+}
+
+/* Diff overrides */
+diff.change.add {
+    background-color: rgba(9, 247, 160, 0.1);
+    color: #27D796;
+}
+
+diff.change.delete {
+    background-color: rgba(244, 62, 92, 0.1);
+    color: #E95379;
 }
 
 /* Haml overrides */
