@@ -1,3 +1,10 @@
+## Version 1.1
+Adding/verifying support for the following:
+
+CoffeeScript, Diff, Haml, INI, Lua
+
+---
+
 ## Version 1.0.2
 Updating types, members, and tag.framework colors
 
