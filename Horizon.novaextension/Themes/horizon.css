@@ -115,7 +115,7 @@ comment {
 }
 
 processing {
-    color: hsl(210, 11%, 45%);
+    color: rgba(108, 110, 146, 0.75);
 }
 
 declaration {
@@ -309,6 +309,10 @@ diff.change.add {
 diff.change.delete {
     background-color: rgba(244, 62, 92, 0.1);
     color: #E95379;
+}
+
+diff.processing.location {
+    color: rgba(184, 119, 219, 0.9); 
 }
 
 /* Haml overrides */
