@@ -389,11 +389,6 @@ javascript.collection.array {
     color: rgba(233, 86, 120, 0.9);
 }
 
-javascript.identifier.argument.name {
-    font-style: italic;
-    color: rgba(233, 86, 120, 0.9);
-}
-
 javascript.identifier.method,
 javascript.string-literal.inline-expression,
 javascript.string.regex.escape,
