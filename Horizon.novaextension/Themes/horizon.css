@@ -124,7 +124,7 @@ declaration {
 
 bracket,
 operator {
-    color: #bbb;
+    color: #BBB;
 }
 
 invalid {
@@ -193,7 +193,7 @@ regex.escaped {
 }
 
 cdata {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Types */
@@ -211,7 +211,7 @@ definition.struct struct.name {
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Tags */
@@ -224,7 +224,7 @@ tag.framework {
 }
 
 tag.attribute.equals-sign {
-    color: #bbb;
+    color: #BBB;
 }
 
 tag.attribute.name {
@@ -267,7 +267,7 @@ style.string.single-quoted {
 }
 
 style.attribute.name {
-    color: #bbb;
+    color: #BBB;
 }
 
 style.value.number,
@@ -304,7 +304,7 @@ css.style.media-query-list.keyword.media-type {
 }
 
 css.style.selector.operator {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Diff */
@@ -417,12 +417,12 @@ javascript.string.regex.delimiter {
 javascript.colon,
 javascript.comma,
 javascript.semicolon {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* JSON */
 json.comma {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Lua */
@@ -472,7 +472,7 @@ python.arguments {
 }
 
 python.separator {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Ruby */
@@ -499,7 +499,7 @@ scss.style.operator {
 }
 
 scss.style.selector.operator {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* SQL */
@@ -529,6 +529,11 @@ typescript.string.regex.delimiter {
 typescript.keyword.self {
     font-style: italic;
     color: rgba(250, 194, 154, 0.9);
+}
+
+/* YAML */
+yaml.string.unquoted {
+    color: #BBB;
 }
 
 
@@ -616,7 +621,7 @@ source.cs.keyword.type {
 }
 
 source.cs.keyword.operator {
-    color: #bbb;
+    color: #BBB;
 }
 
 source.cs.entity.name.variable,
