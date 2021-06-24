@@ -1,5 +1,5 @@
 meta {
-    -theme-display-name: "Horizon-DEV";
+    -theme-display-name: "Horizon";
     -theme-interface-style: dark;
     -theme-vibrancy: none;
     -theme-accent-color: auto;
@@ -128,7 +128,7 @@ operator {
 }
 
 invalid {
-    background-color: hsl(355, 91%, 57%);
+    background-color: rgba(233, 86, 120, 0.6);
     color: hsl(60, 33%, 96%);
 }
 
@@ -490,6 +490,11 @@ scss.style.operator {
 
 scss.style.selector.operator {
     color: #bbb;
+}
+
+/* SQL */
+sql.identifier {
+    color: rgba(240, 148, 131, 0.9);
 }
 
 /* Typescript */
