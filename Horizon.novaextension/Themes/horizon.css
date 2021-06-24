@@ -499,7 +499,7 @@ scss.style.operator {
 }
 
 scss.style.selector.operator {
-    color: #BBB;
+    color: rgba(187, 187, 187, 0.8);
 }
 
 /* SQL */
@@ -534,6 +534,10 @@ typescript.keyword.self {
 /* YAML */
 yaml.string.unquoted {
     color: #BBB;
+}
+
+yaml.operator.literal {
+    color: rgba(37, 176, 188, 0.9);
 }
 
 
