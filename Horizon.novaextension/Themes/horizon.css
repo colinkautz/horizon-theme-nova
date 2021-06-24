@@ -430,6 +430,16 @@ lua.identifier.property {
     color: rgba(233, 86, 120, 0.9);
 }
 
+/* Perl */
+perl.identifier {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+perl.identifier.function,
+perl.keyword.function {
+    color: rgba(37, 186, 188, 0.9);
+}
+
 /* PHP */
 php.definition.identifier.method.name {
     color: rgba(37, 176, 188, 0.9);
