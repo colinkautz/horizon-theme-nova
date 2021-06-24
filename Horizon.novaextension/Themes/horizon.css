@@ -1,5 +1,5 @@
 meta {
-    -theme-display-name: "Horizon";
+    -theme-display-name: "Horizon-DEV";
     -theme-interface-style: dark;
     -theme-vibrancy: none;
     -theme-accent-color: auto;
@@ -39,13 +39,13 @@ meta.textfield {
 }
 
 meta.textfield.highlighted {
-    background-color: #232530;
+    background-color: #2E303E;
     border-color: #2E303E;
 }
 
 /* Document styles */
 meta.document {
-    background-color: #1c1e26;
+    background-color: #1C1E26;
     border-color: #2E303E;
 }
 
@@ -63,13 +63,13 @@ meta.document.button.highlighted {
 }
 
 meta.document.textfield {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: #1C1E26;
+    border-color: #2E303E;
 }
 
 meta.document.textfield.highlighted {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: #2E303E;
+    border-color: #2E303E;
 }
 
 /* Text */
