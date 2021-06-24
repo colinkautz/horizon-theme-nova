@@ -39,13 +39,13 @@ meta.textfield {
 }
 
 meta.textfield.highlighted {
-    background-color: #232530;
+    background-color: #2E303E;
     border-color: #2E303E;
 }
 
 /* Document styles */
 meta.document {
-    background-color: #1c1e26;
+    background-color: #1C1E26;
     border-color: #2E303E;
 }
 
@@ -63,13 +63,13 @@ meta.document.button.highlighted {
 }
 
 meta.document.textfield {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: #1C1E26;
+    border-color: #2E303E;
 }
 
 meta.document.textfield.highlighted {
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: #2E303E;
+    border-color: #2E303E;
 }
 
 /* Text */
@@ -124,11 +124,11 @@ declaration {
 
 bracket,
 operator {
-    color: #bbb;
+    color: #BBB;
 }
 
 invalid {
-    background-color: hsl(355, 91%, 57%);
+    background-color: rgba(233, 86, 120, 0.6);
     color: hsl(60, 33%, 96%);
 }
 
@@ -184,13 +184,16 @@ string-template.value {
     color: hsl(27, 100%, 64%);
 }
 
-regex,
+regex {
+    color: rgba(240, 148, 131, 0.9);
+}
+
 regex.escaped {
-    color: hsl(40, 100%, 64%);
+    color: rgba(37, 176, 188, 0.9);
 }
 
 cdata {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Types */
@@ -208,7 +211,7 @@ definition.struct struct.name {
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: #bbb;
+    color: #BBB;
 }
 
 /* Tags */
@@ -221,7 +224,7 @@ tag.framework {
 }
 
 tag.attribute.equals-sign {
-    color: #bbb;
+    color: #BBB;
 }
 
 tag.attribute.name {
@@ -264,7 +267,7 @@ style.string.single-quoted {
 }
 
 style.attribute.name {
-    color: #bbb;
+    color: #BBB;
 }
 
 style.value.number,
@@ -281,12 +284,16 @@ style.value.keyword.important {
     color: rgba(184, 119, 219, 0.9);
 }
 
-/* CoffeeScript overrides */
+
+/* Built-In Language Styles */
+
+
+/* CoffeeScript */
 coffeescript.operator.function {
     color: rgba(184, 119, 219, 0.9);
 }
 
-/* CSS overrides */
+/* CSS */
 css.style.selector.global.operator,
 css.style.media-feature.keyword {
     color: rgba(233, 86, 120, 0.9);
@@ -297,10 +304,10 @@ css.style.media-query-list.keyword.media-type {
 }
 
 css.style.selector.operator {
-    color: #bbb;
+    color: #BBB;
 }
 
-/* Diff overrides */
+/* Diff */
 diff.change.add {
     background-color: rgba(9, 247, 160, 0.1);
     color: #27D796;
@@ -315,7 +322,7 @@ diff.processing.location {
     color: rgba(184, 119, 219, 0.9); 
 }
 
-/* Haml overrides */
+/* Haml */
 haml.element {
     color: rgba(240, 148, 131, 0.9);
 }
@@ -324,12 +331,12 @@ haml.element.tag {
     color: rgba(233, 86, 120, 0.9);
 }
 
-/* INI overrides */
+/* INI */
 ini.section {
     color: rgba(233, 86, 120, 0.9);
 }
 
-/* Markdown overrides */
+/* Markdown */
 markdown.markup.heading {
     color: rgba(233, 86, 120, 0.9);
 }
@@ -366,14 +373,10 @@ markdown.markup.italic.underscore {
     color: rgba(37, 176, 188, 0.9);
 }
 
-/* JS overrides */
+/* JS */
 javascript.keyword,
 javascript.key-expression {
     color: rgba(184, 119, 219, 0.9);
-}
-
-javascript.string.regex {
-    color: rgba(240, 148, 131, 0.9);
 }
 
 javascript.key.string,
@@ -393,31 +396,51 @@ javascript.identifier.method,
 javascript.string-literal.inline-expression,
 javascript.string.regex.escape,
 javascript.identifier.function,
-javascript.string.backtick-quoted.escape {
+javascript.string.backtick-quoted.escape,
+javascript.string.single-quoted.escape {
     color: rgba(37, 176, 188, 0.9);
+}
+
+javascript.keyword.self {
+    font-style: italic;
+    color: rgba(250, 194, 154, 0.9);
 }
 
 javascript.identifier.type.class.name {
     color: rgba(250, 194, 154, 0.9);
 }
 
+javascript.string.regex.delimiter {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 javascript.colon,
 javascript.comma,
 javascript.semicolon {
-    color: #bbb;
+    color: #BBB;
 }
 
-/* JSON overrides */
+/* JSON */
 json.comma {
-    color: #bbb;
+    color: #BBB;
 }
 
-/* Lua overrides */
+/* Lua */
 lua.identifier.property {
     color: rgba(233, 86, 120, 0.9);
 }
 
-/* PHP overrides */
+/* Perl */
+perl.identifier {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+perl.identifier.function,
+perl.keyword.function {
+    color: rgba(37, 186, 188, 0.9);
+}
+
+/* PHP */
 php.definition.identifier.method.name {
     color: rgba(37, 176, 188, 0.9);
 }
@@ -437,7 +460,7 @@ php.type.identifier.name {
     color: rgba(250, 194, 154, 0.9);
 }
 
-/* Python overrides */
+/* Python */
 python.keyword.self {
     font-style: italic;
     color: rgba(250, 194, 154, 0.9);
@@ -449,10 +472,10 @@ python.arguments {
 }
 
 python.separator {
-    color: #bbb;
+    color: #BBB;
 }
 
-/* Ruby overrides */
+/* Ruby */
 ruby.identifier.args {
     font-style: italic;
     color: rgba(233, 86, 120, 0.9);
@@ -466,7 +489,7 @@ ruby.identifier.type {
     color: rgba(233, 86, 120, 0.9);
 }
 
-/* SCSS overrides */
+/* SCSS */
 scss.style.value.keyword.default {
     color: rgba(184, 119, 219, 0.9);
 }
@@ -476,31 +499,51 @@ scss.style.operator {
 }
 
 scss.style.selector.operator {
-    color: #bbb;
+    color: rgba(187, 187, 187, 0.8);
 }
 
-/* C# extension theming */
-source.cs.keyword.modifier,
-source.cs.keyword.other,
-source.cs.variable.other {
-    color: rgba(184, 119, 219, 0.9);
+/* SQL */
+sql.identifier {
+    color: rgba(240, 148, 131, 0.9);
 }
 
-source.cs.identifier.type,
-source.cs.keyword.type {
-    color: rgba(250, 194, 154, 0.9);
-}
-
-source.cs.keyword.operator {
-    color: #bbb;
-}
-
-source.cs.entity.name.variable,
-source.cs.entity.name.identifier.argument {
+/* Typescript */
+typescript.identifier {
     color: rgba(233, 86, 120, 0.9);
 }
 
-/* Terminal */
+typescript.identifier.method,
+typescript.identifier.function {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+typescript.identifier.type.interface.name,
+typescript.identifier.type.core {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+typescript.string.regex.delimiter {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+typescript.keyword.self {
+    font-style: italic;
+    color: rgba(250, 194, 154, 0.9);
+}
+
+/* YAML */
+yaml.string.unquoted {
+    color: #BBB;
+}
+
+yaml.operator.literal {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+
+/* Terminal styles */
+
+
 terminal.black {
     color: #1C1E26;
 }
@@ -563,4 +606,29 @@ terminal.bright-yellow {
 
 terminal.bright-white {
     color: #FDF0ED;
+}
+
+
+/* Language Extension Styles */
+
+
+/* C# */
+source.cs.keyword.modifier,
+source.cs.keyword.other,
+source.cs.variable.other {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+source.cs.identifier.type,
+source.cs.keyword.type {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+source.cs.keyword.operator {
+    color: #BBB;
+}
+
+source.cs.entity.name.variable,
+source.cs.entity.name.identifier.argument {
+    color: rgba(233, 86, 120, 0.9);
 }
