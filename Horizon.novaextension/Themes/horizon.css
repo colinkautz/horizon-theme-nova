@@ -522,6 +522,19 @@ scss.style.selector.operator {
     color: rgba(187, 187, 187, 0.8);
 }
 
+/* Shell Script */
+shell.string-template {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+shell.keyword.builtin-command {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+shell.operator.argument {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 /* SQL */
 sql.identifier {
     color: rgba(240, 148, 131, 0.9);
