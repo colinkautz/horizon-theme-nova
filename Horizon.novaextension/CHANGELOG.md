@@ -1,3 +1,10 @@
+## Version 1.3
+
+Adding/verifying support for the following:  
+JSX, TSX, Shell Script, Smarty
+
+---
+
 ## Version 1.2
 JS: fixing keyword.self and escape characters
 

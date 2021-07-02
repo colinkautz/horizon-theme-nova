@@ -406,7 +406,8 @@ javascript.keyword.self {
     color: rgba(250, 194, 154, 0.9);
 }
 
-javascript.identifier.type.class.name {
+javascript.identifier.type.class.name,
+javascript.identifier.type.class.superclass {
     color: rgba(250, 194, 154, 0.9);
 }
 
@@ -422,6 +423,25 @@ javascript.semicolon {
 
 /* JSON */
 json.comma {
+    color: #BBB;
+}
+
+/* JSX */
+jsx.value.variable.bracket {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+jsx.tag.open.name.framework,
+jsx.tag.close.name.framework {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+jsx.tag.framework.open,
+jsx.tag.framework.close {
+    color: rgba(233, 86, 120, 0.7);
+}
+
+jsx.tag.framework.attribute.operator {
     color: #BBB;
 }
 
@@ -502,13 +522,56 @@ scss.style.selector.operator {
     color: rgba(187, 187, 187, 0.8);
 }
 
+/* Shell Script */
+shell.string-template {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+shell.keyword.builtin-command {
+    color: rgba(37, 176, 188, 0.9);
+}
+
+shell.operator.argument {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 /* SQL */
 sql.identifier {
     color: rgba(240, 148, 131, 0.9);
 }
 
+/* TSX */
+tsx.tag.open,
+tsx.tag.close {
+    color: rgba(233, 86, 120, 0.7);
+    
+}
+
+tsx.tag.open.name,
+tsx.tag.close.name,
+tsx.value.variable {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+tsx.tag.open.name.framework,
+tsx.tag.close.name.framework {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+tsx.tag.framework.attribute.operator {
+    color: #BBB;
+}
+
+tsx.value.variable.bracket {
+    color: rgba(184, 119, 219, 0.9);
+}
+
 /* Typescript */
-typescript.identifier {
+typescript.identifier,
+typescript.identifier.key.name,
+typescript.identifier.property.name,
+typescript.identifier.name,
+typescript.identifier.property {
     color: rgba(233, 86, 120, 0.9);
 }
 
@@ -517,6 +580,9 @@ typescript.identifier.function {
     color: rgba(37, 176, 188, 0.9);
 }
 
+typescript.argument.types,
+typescript.identifier.constant,
+typescript.identifier.type,
 typescript.identifier.type.interface.name,
 typescript.identifier.type.core {
     color: rgba(250, 194, 154, 0.9);
@@ -529,6 +595,11 @@ typescript.string.regex.delimiter {
 typescript.keyword.self {
     font-style: italic;
     color: rgba(250, 194, 154, 0.9);
+}
+
+typescript.comma,
+typescript.semicolon {
+    color: #BBB;
 }
 
 /* YAML */
