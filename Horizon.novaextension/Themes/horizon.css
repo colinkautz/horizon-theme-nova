@@ -461,7 +461,10 @@ perl.keyword.function {
 }
 
 /* PHP */
-php.definition.identifier.method.name {
+php.keyword.statement,
+php.definition.identifier.method.name,
+php.string.escape,
+php.identifier.function {
     color: rgba(37, 176, 188, 0.9);
 }
 
@@ -471,6 +474,7 @@ php.class.extends {
 }
 
 php.identifier.name,
+php.identifier.property,
 php.string.double-quoted.string-template.variable {
     color: rgba(233, 86, 120, 0.9);
 }
@@ -478,6 +482,15 @@ php.string.double-quoted.string-template.variable {
 php.identifier.type.class.name,
 php.type.identifier.name {
     color: rgba(250, 194, 154, 0.9);
+}
+
+php.keyword.self {
+    font-style: italic;
+    color: rgba(250, 194, 154, 0.9);
+}
+
+php.semicolon {
+    color: #BBB;
 }
 
 /* Python */
