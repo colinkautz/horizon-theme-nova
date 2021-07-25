@@ -1,3 +1,11 @@
+## Version 1.4
+
+Adding initial support for Go¹
+
+¹: Requires Go extension by Gwyneth Llewelyn
+
+---
+
 ## Version 1.3.1
 
 PHP fixes
