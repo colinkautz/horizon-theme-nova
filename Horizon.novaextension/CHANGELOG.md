@@ -1,3 +1,9 @@
+## Version 1.3.1
+
+PHP fixes
+
+---
+
 ## Version 1.3
 
 Adding/verifying support for the following:  
