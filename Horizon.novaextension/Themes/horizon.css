@@ -469,7 +469,8 @@ php.identifier.function {
 }
 
 php.definition.class,
-php.class.extends {
+php.class.extends,
+php.sql.string-keyword {
     color: rgba(184, 119, 219, 0.9);
 }
 
@@ -584,20 +585,24 @@ typescript.identifier,
 typescript.identifier.key.name,
 typescript.identifier.property.name,
 typescript.identifier.name,
-typescript.identifier.property {
+typescript.identifier.property,
+typescript.identifier.constant.name {
     color: rgba(233, 86, 120, 0.9);
 }
 
 typescript.identifier.method,
-typescript.identifier.function {
+typescript.identifier.function,
+typescript.string.backtick-quoted.escape,
+typescript.keyword.condition {
     color: rgba(37, 176, 188, 0.9);
 }
 
 typescript.argument.types,
-typescript.identifier.constant,
 typescript.identifier.type,
 typescript.identifier.type.interface.name,
-typescript.identifier.type.core {
+typescript.identifier.type.core,
+typescript.identifier.core.global,
+typescript.identifier.constant {
     color: rgba(250, 194, 154, 0.9);
 }
 
