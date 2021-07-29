@@ -6,6 +6,12 @@ Adding initial support for Go¹
 
 ---
 
+## Version 1.3.2
+
+Typescript and PHP fixes, as introduced from nova v7.2
+
+---
+
 ## Version 1.3.1
 
 PHP fixes
