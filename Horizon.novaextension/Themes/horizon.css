@@ -721,3 +721,25 @@ source.cs.entity.name.variable,
 source.cs.entity.name.identifier.argument {
     color: rgba(233, 86, 120, 0.9);
 }
+
+/* Go */
+go.identifier,
+go.punctuation.delimiter.period {
+    color: #BBB;
+}
+
+go.identifier.type.core {
+    color: rgba(233, 86, 120, 0.9);
+}
+
+go.identifier.type.class,
+go.arguments {
+    color: rgba(184, 119, 219, 0.9);
+}
+
+go.identifier.method,
+go.identifier.function,
+go.definition.function.name,
+go.string.double-quoted.escape {
+    color: rgba(37, 176, 188, 0.9);
+}

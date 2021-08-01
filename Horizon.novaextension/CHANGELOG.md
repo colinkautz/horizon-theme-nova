@@ -1,3 +1,11 @@
+## Version 1.4
+
+Adding initial support for Go¹
+
+¹: Requires Go extension by Gwyneth Llewelyn
+
+---
+
 ## Version 1.3.2
 
 Typescript and PHP fixes, as introduced from nova v7.2
