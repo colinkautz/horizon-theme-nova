@@ -3,7 +3,7 @@
 Adding support for Vue markup syntax highlighting¹
 HTML, JS minor fixes
 
-¹: Vue extension by Tommaso Negri 
+¹: Requires Vue extension by Tommaso Negri 
 
 ## Version 1.4
 
