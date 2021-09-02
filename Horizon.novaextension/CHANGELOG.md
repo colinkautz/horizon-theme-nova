@@ -1,3 +1,10 @@
+## Version 1.5
+
+Adding support for Vue markup syntax highlighting¹
+HTML, JS minor fixes
+
+¹: Vue extension by Tommaso Negri 
+
 ## Version 1.4
 
 Adding initial support for Go¹
@@ -54,7 +61,7 @@ JS: fixing collection.array, comma, and semicolon colors
 ## Version 1.0
 
 Initial release, with optimized syntax support for the following languages:  
-C# ¹, CSS, HTML, JavaScript, JSON, Markdown, PHP, Python, Ruby, SCSS, Vue ², XML
+C#¹, CSS, HTML, JavaScript, JSON, Markdown, PHP, Python, Ruby, SCSS, Vue², XML
 
 ¹: requires C# extension by Gareth Redman  
 ²: requires Vue extension by Tommaso Negri
