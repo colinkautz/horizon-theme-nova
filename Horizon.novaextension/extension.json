@@ -3,7 +3,7 @@
     "name": "Horizon",
     "organization": "Colin K.",
     "description": "A port of Jonathan Olaleye's Horizon Theme from VS Code.",
-    "version": "1.4",
+    "version": "1.5",
     "bugs": "https://github.com/colinkautz/horizon-theme-nova/issues",
     "repository": "https://github.com/colinkautz/horizon-theme-nova",
     "keywords": ["horizon","theme"],

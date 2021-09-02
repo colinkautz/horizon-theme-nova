@@ -331,6 +331,11 @@ haml.element.tag {
     color: rgba(233, 86, 120, 0.9);
 }
 
+/* HTML */
+html.tag.attribute.operator {
+    color: #BBB;
+}
+
 /* INI */
 ini.section {
     color: rgba(233, 86, 120, 0.9);
@@ -384,9 +389,9 @@ javascript.identifier.core.global {
     color: rgba(250, 183, 149, 0.9);
 }
 
+javascript.identifier,
 javascript.definition.variable,
 javascript.arguments,
-javascript.identifier,
 javascript.key.name,
 javascript.collection.array {
     color: rgba(233, 86, 120, 0.9);
@@ -417,7 +422,8 @@ javascript.string.regex.delimiter {
 
 javascript.colon,
 javascript.comma,
-javascript.semicolon {
+javascript.semicolon,
+javascript.dot {
     color: #BBB;
 }
 
@@ -742,4 +748,26 @@ go.identifier.function,
 go.definition.function.name,
 go.string.double-quoted.escape {
     color: rgba(37, 176, 188, 0.9);
+}
+
+/* Vue */
+vue.html.tag.open,
+vue.html.tag.close {
+    color: rgba(233, 86, 120, 0.7);
+}
+
+vue.html.tag.name,
+vue.html.tag.attribute {
+    color: rgba(250, 194, 154, 0.9);
+}
+
+vue.html.tag.attribute.shorthand-key,
+vue.html.tag.attribute.name {
+    color: rgba(184, 119, 219, 0.9);
+    font-weight: bold;
+}
+
+vue.html.embedded.interpolation.bracket {
+    color: #BBB;
+    font-weight: bold;
 }
