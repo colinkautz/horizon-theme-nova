@@ -1,6 +1,7 @@
 ## Version 1.5
 
 Adding support for Vue markup syntax highlighting¹
+
 HTML, JS minor fixes
 
 ¹: Requires Vue extension by Tommaso Negri
