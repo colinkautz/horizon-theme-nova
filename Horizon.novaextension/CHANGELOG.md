@@ -1,3 +1,9 @@
+## Version 1.5.1
+
+Quick fix for Vue
+
+---
+
 ## Version 1.5
 
 Adding support for Vue markup syntax highlighting¹
