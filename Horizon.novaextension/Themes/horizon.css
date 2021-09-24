@@ -756,7 +756,6 @@ vue.html.tag.close {
     color: rgba(233, 86, 120, 0.7);
 }
 
-vue.html.tag.name,
 vue.html.tag.attribute {
     color: rgba(250, 194, 154, 0.9);
 }
