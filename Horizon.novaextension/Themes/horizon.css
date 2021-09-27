@@ -79,17 +79,15 @@ meta.text {
 meta.text.invisible {
     color: rgba(204, 230, 255, 0.12);
 }
-meta.text.selected {
-}
 
 /* Cursor */
 meta.cursor {
-    background-color: rgba(108, 111, 147, 0.3);
+    background-color: #2E303E;
 }
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: #6c6f93;
+    border-color: rgba(108, 111, 147, 0.7);
 }
 
 /* Gutter */

@@ -1,3 +1,9 @@
+## Version 1.5.2
+
+Fixing `meta.cursor` and `meta.indentguide` colors
+
+---
+
 ## Version 1.5.1
 
 Quick fix for Vue
